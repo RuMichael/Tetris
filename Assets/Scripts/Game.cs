@@ -6,6 +6,8 @@ using UnityEngine.UI;
 
 public class Game : MonoBehaviour
 {
+    // переделать на статик
+
     public static int GridHeight = 20;
     public static int GridWeight = 10;
     public static Transform[,] grid = new Transform[GridWeight, GridHeight];
